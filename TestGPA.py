@@ -20,6 +20,6 @@ while lastName != 'ZZZ':
         # Tests to see if student make Dean's List or Honor Roll and prints result
         if studentGPA >= 3.5:
             print(firstName, lastName, "has made the Dean's List.")
-        if studentGPA >= 3.25:
+        elif studentGPA >= 3.25:
             print(firstName, lastName, "has made the Honor Roll.")
 
